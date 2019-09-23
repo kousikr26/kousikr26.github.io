@@ -3,8 +3,9 @@ body, html {
 }
 
 .bg {
+	
 	/* The image used */
-	background-image: url("#");
+	/*background-image: url("../images/bg.jpeg");*/
 
 	/* Full height */
 	height: 100%;
@@ -13,4 +14,10 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+#myname{
+	font: 400 50px/1.5 'Pacifico', Helvetica, sans-serif;
+	color: #2b2b2b;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align: center;	
 }
