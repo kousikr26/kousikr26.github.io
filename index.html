@@ -10,6 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 
 	<link rel="stylesheet" href="css/styles.css">
 
@@ -19,7 +20,13 @@
 		<div class="container" >
 			<img src="images/me.jpg" class="rounded-circle img-fluid mx-auto d-block" style="max-width : 30%;" alt="Me">
 			<div id="myname">Kousik Rajesh</div>
-			<h1>Hi there, I'm Kousik</h1>
+			<script src="js/name_animation.js"></script>
+			<h1>This pen is
+				<span
+				class="txt-rotate"
+				data-period="2000"
+				data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+			</h1>
 			<h2> This website is under construction</h2>
 	
 
@@ -27,7 +34,7 @@
 	</div>
 	<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
 		<!-- Brand -->
-		<a class="navbar-brand" href="#">Logo</a>
+		<a class="navbar-brand" href="#aboutme">About me</a>
 		<!-- Collapse button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar"
 		aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,9 +64,44 @@
 		</ul>
 	</div>
 </nav>
+<div class="container" id="aboutme">
+	<h2>About Me</h2>
+	
 
+	<div class="col-md-8">
+		<p>Hello There!</p>
+		<p>I'm Kousik. I'm a sophomore studying Computer Science and Engineering at IIT Guwahati.</p>
+		<p>I'm interested in machine learning</p>
+		<p>
+			<ul class="fh5co-social-icons">
+				<li><a href="#"><i class="icon-twitter2"></i></a></li>
+				<li><a href="#"><i class="icon-facebook3"></i></a></li>
+				<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+			</ul>
+		</p>
+	</div>
+	
+</div>
+<div class="container" id="aboutme">
+	<h2>Experience</h2>
+	
 
-<div id="contact">
+	<div class="col-md-8">
+		YOYO Experience
+	</div>
+	
+</div>
+<div class="container" id="aboutme">
+	<h2>Projects</h2>
+	
+
+	<div class="col-md-8">
+		YOYO PROJECTs
+	</div>
+	
+</div>
+<div class="container" id="contact">
 
 	<ul class="info">
 		<li><span class="first-block">Full Name:</span><span class="second-block">Kousik Rajesh</span></li>
