@@ -69,6 +69,10 @@ body {
   background-color: #fff;
 }
 
+p{
+  font-family:"Roboto";
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -88,6 +92,33 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 500px){
+  .manImg{
+    display:none;
+  }
+}
+@media (min-width: 500px){
+  .manImg{
+    height:200px
+  }
+}
+
+
+@media (min-width: 1000px){
+  .manImg{
+    height:350px
+  }
+}
+
+@media (min-width: 1600px){
+  .manImg{
+    height:400px
+  }
+}
+
+
+
 
 abbr[title],
 abbr[data-original-title] {
@@ -557,6 +588,7 @@ pre code {
   .container-sm, .container {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -1924,6 +1956,7 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+  
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -1935,6 +1968,7 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
@@ -1946,6 +1980,7 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -1957,6 +1992,7 @@ pre code {
   .table-responsive-xl > .table-bordered {
     border: 0;
   }
+  
 }
 .table-responsive {
   display: block;
@@ -2351,6 +2387,7 @@ textarea.form-control {
   width: 100%;
 }
 @media (min-width: 576px) {
+  
   .form-inline label {
     display: flex;
     align-items: center;
@@ -3031,6 +3068,7 @@ input[type=button].btn-block {
   }
 }
 @media (min-width: 992px) {
+  
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
@@ -9998,15 +10036,19 @@ h3 {
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
-  width: 100%;
+  width: 40%;
   display: flex;
+  margin-left:auto;
+  margin-right:auto;
   justify-content: center;
   align-items: center;
 }
 .divider-custom .divider-custom-line {
-  width: 100%;
+  width: 40%;
   max-width: 7rem;
   height: 0.25rem;
+  margin-left:auto;
+  margin-right:auto;
   background-color: #2c3e50;
   border-radius: 1rem;
   border-color: #2c3e50 !important;
@@ -10116,7 +10158,7 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(3rem + 74px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10127,12 +10169,12 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(3rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
